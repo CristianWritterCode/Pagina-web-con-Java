@@ -8,6 +8,16 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+form{
+    max-width: 500px; margin: 0 auto;
+}
+
+label{
+    width: 72px;
+    font-weight: bold;
+    display: inline-block;
+}
+
 #container{
     /*width: 70%*/
     width: 1100px;
@@ -24,6 +34,16 @@ header{
     line-height: 100px;
     color: white;
     border-bottom: 3px solid dashed black;
+}
+
+.logo{
+    float: left;
+    width: 99px;
+    height: 99%;
+    padding-left: 122px;
+    position: relative;
+    top: 0px;
+    overflow: hidden;
 }
 
 nav{
